@@ -1,0 +1,163 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Nixie One', cursive;
+    font-weight: 600;
+    color: white;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: goldenrod;
+    text-align: left;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+pre {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin: 10px 0px;
+}
+
+.burger-orders {
+    margin-top: 20px;
+}
+
+.subhead {
+    padding: 0 15px;
+}
+
+
+input.form-control {
+    /* background-color: rgba(255, 255, 255, 0.0); */
+    width: 450px;
+}
+
+.form-control[readonly] {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 0px;
+    opacity: 1;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+
+.logo {
+    width: 65%;
+    height: 250px;
+    user-select: none;
+}
+
+.custom-burger {
+    margin-top: 25px;
+}
+
+.logo b {
+    font: 400 6vh "Nixie One";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+.logo b span {
+    animation: blink linear infinite 2s;
+}
+
+.logo b span:nth-of-type(2) {
+    animation: blink linear infinite 3s;
+}
+
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    79% {
+        color: #333;
+    }
+
+    80% {
+
+        text-shadow: none;
+    }
+
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    82% {
+        color: #333;
+        text-shadow: none;
+    }
+
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    92% {
+        color: #333;
+        text-shadow: none;
+    }
+
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 163px;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.btn-outline-warning {
+    margin-top: 20px;
+}
+
+.eat-border {
+    border-style: solid;
+    border: 1px solid goldenrod;
+    margin-top: 25px;
+}
